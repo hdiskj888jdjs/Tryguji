@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button, input[type="color"] {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+#styledText {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+#styledText span {
+  display: inline-block;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  transform: perspective(500px) rotateX(10deg);
+}
